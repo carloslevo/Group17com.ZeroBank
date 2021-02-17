@@ -10,7 +10,7 @@ public class AccSumPage extends BasePage{
     @FindBy(id="searchTerm")
     public WebElement search;
 
-    @FindBy(css = "html > body > div > div:nth-of-type(2) > div")
+    @FindBy(css = "html>body>div>div:nth-of-type(2)>div")
     public List<WebElement> message;
 
     @FindBy(xpath="//*[@id=\"homeMenu\"]/div/strong")
